@@ -5,7 +5,7 @@
 void main() {
     int gd = DETECT, gm;
     initgraph(&gd, &gm, "C:\\Turboc3\\BGI");  // Correct path for Turbo C++
-
+    initgraph(&gd, &gm, "C:\\Turboc3\\BGI");
     int x1, y1, x2, y2;
 
     cout << "Enter the coordinates of the line: ";
